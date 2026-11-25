@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Http\Controllers;
+
+class PosController extends Controller
+{
+    public function index()
+    {
+        // Layar kasir dikerjakan pada Bab 12
+        return 'Layar kasir dibuat pada Bab 12.';
+    }
+
+    public function history()
+    {
+        return view('pos.history');
+    }
+}
